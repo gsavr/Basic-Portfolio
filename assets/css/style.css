@@ -1,0 +1,25 @@
+
+
+
+
+
+
+
+
+/* Container holding the image and the text */
+.container {
+    width: 400px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+    /* Picture Text */
+.portfolio-desc {
+    background-color: black;
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
