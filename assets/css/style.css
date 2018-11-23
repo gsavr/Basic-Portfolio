@@ -64,6 +64,8 @@ a:visited{
 
 hr {
     border: .5px solid #aec5df;
+    margin-right:20px;
+    margin-left:20px;
 }
 
 h2, h3 {
@@ -87,7 +89,7 @@ p {
 }
 
 .footer{
-    position: absolute;
+    position: absolute; /* for about and contact page */
     bottom: 0;
     background-color: #6C7A89;
     color: white;
@@ -110,7 +112,15 @@ p {
     margin-left: 50px;
 }
 
-    /* Picture Text in portfolio page */
+.content-portfolio {
+    align-content: center;
+    max-width: 960px;   /* size of webpage and centering in browser */
+    margin: auto;
+    background-color: #ffffff;
+    border: 1px solid #aec5df;
+    padding-bottom: 50px; 
+}
+
 .portfolio-desc {
     background-color: #6C7A89;
     position: absolute;
@@ -139,3 +149,36 @@ p {
     border-top: 2px solid #aec5df;
     margin-top: 50px;
 }
+
+/* contact page */
+form {
+    padding: 20px;
+    color: #777777;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #aec5df;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#message {
+    width: 100%;
+    height: 100px;
+    margin: 8px 0;
+    border: 1px solid #aec5df;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  #submitbutton {
+      width: 100px;
+      color: white;
+      background-color: #354649;
+      margin-bottom: 0px;
+      font-size: 15px;
+      
+  }
