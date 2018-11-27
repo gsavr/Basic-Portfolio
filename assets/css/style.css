@@ -10,7 +10,7 @@ html body{
 
 
 header {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Open Sans', sans-serif;
     padding: 50px;
     padding-top: 25px;
     margin-bottom: 40px;
@@ -39,17 +39,17 @@ header {
     padding-top: 5px;
 }
 
-a:link{
+nav a:link{
     color: #354649;
     text-decoration: none;
 }
 
-a:hover{
+nav a:hover{
     color: red;
     text-decoration: none;
 }
 
-a:visited{
+nav a:visited{
     color: #354649;
     text-decoration: none;
 }
@@ -69,7 +69,7 @@ hr {
 }
 
 h2, h3 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .head {
