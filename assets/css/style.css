@@ -88,6 +88,10 @@ p {
     padding: 20px;
 }
 
+.body-p {
+    line-height: 1.5;
+}
+
 .footer{
     position: absolute; /* for about and contact page */
     bottom: 0;
