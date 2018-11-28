@@ -90,6 +90,7 @@ p {
 
 .body-p {
     line-height: 1.4;
+    
 }
 
 .footer{
@@ -112,17 +113,17 @@ p {
     position: relative;
     text-align: center;
     color: white;
-    display: inline;
+    display: inline-block;
     margin-left: 50px;
 }
 
-.content-portfolio {
+.content-portfolio {    /* size of content in webpage and centering in browser */
     align-content: center;
-    max-width: 960px;   /* size of webpage and centering in browser */
+    max-width: 960px;   
     margin: auto;
     background-color: #ffffff;
     border: 1px solid #aec5df;
-    padding-bottom: 50px; 
+    padding-bottom: 50px;   
 }
 
 .portfolio-desc {
